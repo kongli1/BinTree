@@ -24,7 +24,7 @@
 
 - 创建Comment控件文件
 >1、在src目录下创建Comment.js文件<br/>
-2、在Comment.js中引入所需控件
+>2、在Comment.js中引入所需控件
 ```base
 import React from 'react';
 import Marked from 'marked';
@@ -55,7 +55,7 @@ export default Comment;
 
 - 创建CommentFrom控件文件
 >1、在src目录下创建CommentFrom.js文件<br/>
-2、在CommentFrom.js中引入所需的控件
+>2、在CommentFrom.js中引入所需的控件
 ```base
 import React from 'react';
 ```
@@ -102,7 +102,7 @@ export default CommentFrom;
 ```
 - 创建CommentList控件文件
 >1、在src目录下创建CommentList.js文件<br/>
-2、在CommentList.js中引入所需的控件
+>2、在CommentList.js中引入所需的控件
 ```base
 import React from 'react';
 import Comment from './Comment.js';
@@ -133,7 +133,7 @@ export default CommentList;
 
 - 创建CommentBox控件文件
 >1、在src目录下创建CommentBox.js文件<br/>
-2、在CommentBox.js中引入所需的控件
+>2、在CommentBox.js中引入所需的控件
 ```base
 import React from 'react';
 import $ from 'jquery';
@@ -265,6 +265,7 @@ app.post('/api/comments', (req, resp) => {
 ```
 
 - 启动服务
+
 >控制台输入以下命令启动
 ```base
 npm start
