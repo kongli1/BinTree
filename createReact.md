@@ -10,9 +10,9 @@
 - 配置项目框架
 
 >1、将[react-start-kit](https://github.com/kriasoft/react-starter-kit.git)根目录下的package.json文件和tools文件拷贝到新建项目的根目录<br/>
-2、在控制台中输入'npm install'运行安装node控件<br/>
-3、运行'npm install jquery --save'安装jQuery控件<br/>
-4、运行'npm install marked --save'安装marked控件
+>2、在控制台中输入'npm install'运行安装node控件<br/>
+>3、运行'npm install jquery --save'安装jQuery控件<br/>
+>4、运行'npm install marked --save'安装marked控件
 
 - 创建项目目录及文件
 >1、在根目录下创建src目录<br/>
@@ -219,7 +219,7 @@ $().ready(() => {
 - 创建html节点
 >1、在index.html的head中引入编译后的js
 ```base
-<div id="content"></div>
+<script src="./assets/main.js"/>
 ```
 >2、在index.html中创建节点
 ```base
