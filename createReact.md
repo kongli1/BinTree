@@ -102,7 +102,7 @@ import React from 'react';
 ```base
 
 ```
->4、到出CommentList控件
+> 4、到出CommentList控件
 ```base
 export default CommentList;
 ```
